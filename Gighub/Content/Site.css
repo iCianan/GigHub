@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-size: 17px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,3 +23,43 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/* Bootstrap Overrides*/
+.navbar-inverse {
+    background-color: #f5600a;
+    border-color: #f5600a;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+body {
+    font-family: 'Open Sans','Indie Flower', cursive,'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control{
+    font-size:17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
