@@ -25,11 +25,15 @@ textarea {
 }
 
 /* Bootstrap Overrides*/
+
 .navbar-inverse {
     background-color: #f5600a;
     border-color: #f5600a;
 }
 
+.navbar-brand {
+  font-weight: 700;
+}
 .navbar-inverse .navbar-brand {
     color: #ffffff;
 }
@@ -38,17 +42,41 @@ textarea {
     color: #ffffff;
 }
 
+  .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+     background-color: #c1570c;
+  }
+.dropdown-menu  {
+    box-shadow:none;
+  }
+
 body {
     font-family: 'Open Sans','Indie Flower', cursive,'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .form-group {
     margin-bottom: 20px;
+    padding: 10px 15px;
+    -ms-border-radius: 9x;
+    border-radius: 9px;
 }
 
 .form-control{
     font-size:17px;
 }
+.form-control:focus {
+  border-color:#2196F3;
+  box-shadow:none;
+  -webkit-box-shadow:none;
+
+}
+
+.btn {
+  font-size: 17px;
+  padding: 7px 20px;
+  -ms-border-radius: 9x;
+  border-radius: 9px;
+}
+
 
 
 
